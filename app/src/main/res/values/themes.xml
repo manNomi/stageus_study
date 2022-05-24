@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StageusGen8" parent="Theme.AppCompat.Light">
+        <!-- 이 프로젝트의 모든 View의 배경색에 대해서 검정으로 설정 하겠다 -->
+        <!-- 이 프로젝트의 모든 Button에 FitButtonStyle을 적용 하겠다 -->
+        <item name="android:buttonStyle">@style/FitButtonStyle</item>
+
+        <item name="android:textViewStyle">@style/DefaultFontSizeStyle</item>
+    </style>
+
+    <style name="FitButtonStyle">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <style name="DefaultFontSizeStyle">
+        <item name="android:textSize">30dp</item>
+    </style>
+</resources>
